@@ -1,5 +1,12 @@
 # RPM Tips
 
+## Official RPM repository
+
+### old versions
+
+- http://vault.centos.org
+- https://koji.fedoraproject.org/koji/
+
 ## Show files in a rpm package
 
 ```
