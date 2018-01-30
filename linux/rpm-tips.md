@@ -11,3 +11,15 @@ rpm2cpio foo.rpm | cpio -t
 ```
 rpm2cpio foo.rpm | cpio -id
 ```
+
+## Show information of rpm which is installed
+
+```
+rpm -qi foo.rpm
+```
+
+## Show information of rpm which is not installed
+
+```
+rpm -qip foo.rpm
+```
