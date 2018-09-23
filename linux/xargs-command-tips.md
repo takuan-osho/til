@@ -22,3 +22,11 @@ $ find . -type f -print0 | xargs -0 rm
 $ ls
 dirA
 ```
+
+## Count files in each sub directory at current directory.
+
+This command uses `xargs -I{} sh -c "<some commands> {}"` tips.
+
+```
+$ ls -1 | xargs -I{} sh -c "echo {}; ls -1 {} | wc -l"
+```
